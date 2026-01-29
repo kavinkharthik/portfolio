@@ -152,7 +152,7 @@ function App() {
       <div className="shell">
         <header className="topbar">
           <div className="brand">
-            <span className="dot" />
+            <img src="/profile.jpg" alt="Logo" className="brand__logo" />
             <span className="brand__text">{profile.name}</span>
           </div>
           <nav className="nav">
